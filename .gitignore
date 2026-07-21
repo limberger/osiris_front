@@ -19,6 +19,13 @@ sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/react
 
+# Vite build output
+dist/
+.vite/
+
+# Environment variables
 .env
+.env.local
+.env.*.local
 .venv
 .history

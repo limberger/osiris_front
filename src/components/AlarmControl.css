@@ -1,0 +1,10 @@
+/* Reuse control-card styles from GateControl */
+@import './GateControl.css';
+
+.alarm-control .control-button.on {
+  background: linear-gradient(135deg, #f44336 0%, #e53935 100%);
+}
+
+.alarm-control .control-button.off {
+  background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+}
